@@ -39,6 +39,8 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.audio.delta.refresh=true \
+    ro.vendor.audio.dolby.surround.enable=true \
     ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1 \
     ro.vendor.product.device.db=OP_DEVICE \
     ro.vendor.product.manufacturer.db=OP_PHONE \
